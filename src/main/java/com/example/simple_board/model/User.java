@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+@Entity//이젠 java file에서 table을 정의
 @Table(name="users")
 @Data
 @NoArgsConstructor
